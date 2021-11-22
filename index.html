@@ -5,25 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro portfólio - Danny Elis Simioni</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color: #ffced7;
+            font-size: 20px;
+        }
+        h1{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: #590d22;
+            font-size: 2.5em;
+            text-align: center;
+        }
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #800F2F;
+            font-size: 1.5em;
+        }
+        p{
+            font-family: 'Lobster Two', cursive;
+            color:a4133c;
+            line-height: 40px;
+            background-color: #ff758f;
+            font-size: 0.9em;
+            border-radius: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        
+        .subdestaque{
+            color:a4133c;
+            line-height: 20px;
+            background-color: #FF8FA3;
+            font-size: 0.8em;
+            border-radius: 5px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+            
+        }
+        #fotodeperfil{
+            border-radius: 50%;
+            border-color: #ff8fa3;
+            border-style: inset;
+            border-width: 5px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .contato{
+            font-size: 0.7em;
+            background-color: #FF8FA3;
+        }
+        #enfase1{
+            font-size: 1.2em;
+        }
+        #enfase2{
+            font-size: 1.3em;
+        }
+        #enfase3{
+            font-size: 1.4em;
+        }
+    </style>
 </head>
 <body>
-    <h1><a href="#linkinterno">Danny Elis Simioni</a></h1>
-    <img src="/foto-de-perfil.jpeg" width="600px" alt="Foto de perfil">
-    <p><em>Médica veterinária formada pela UFRGS.</em> <br>Atualmente em transição de carreira fazendo o <strong>Curso de desenvolvimento Web da Trybe.</strong></p>
-    <p>Brasileira, nascida em Ponta Grossa, PR, morando atualmente em Porto Alegre, RS>. </p>
-    <p>Idealizadora e autora das <a href="#apostilasdavet">Apostilas da Vet Danny Elis</a>! </p>
-    <p>Principais habilidades:</p>
-    <ul>
-        <li> <em>Boa capacidade de comunicação;</em></li>
-        <li><strong>Habilidade de trabalhar em equipe;</strong></strong> </li>
-        <li>Atitude positiva.</li>
+    <h1>Danny Elis Simioni</h1>
+    <img src="/foto-de-perfil.jpeg" id="fotodeperfil" width="300px" alt="Foto de perfil"><br>
+    <p><em>Médica veterinária formada pela UFRGS.</em> <br>Atualmente em transição de carreira fazendo o <strong>Curso de Desenvolvimento Web da Trybe.</strong> <br>Brasileira, nascida em Ponta Grossa/PR, morando atualmente em Porto Alegre/RS. <br>Idealizadora e autora das <a href="#apostilasdavet">Apostilas da Vet Danny Elis</a>! </p>
+    <p class="subdestaque">Principais habilidades:</p>
+    <ul class="subdestaque">
+        <li id="enfase1"> <em>Boa capacidade de comunicação;</em></li>
+        <li id="enfase2"><strong>Habilidade de trabalhar em equipe;</strong></strong> </li>
+        <li id="enfase3">Atitude positiva.</li>
     </ul>
     <br>
-    <img src="https://media-exp1.licdn.com/dms/image/C4E16AQHZbjHigtfC3g/profile-displaybackgroundimage-shrink_350_1400/0/1636503257109?e=1643241600&v=beta&t=3odzlSqnOflnpZUXtUV2iDwG6wvhqpKNRm0M-PBXOgw" width="600px" alt="Imagem de capa verde com logo da trybe">
-    <br>
     <h3>Contato</h3>
-    <p id="linkinterno"><a href="https://www.linkedin.com/in/dannyelissimioni/" target="_blank">Linkedin</a></p>
-    <p id="apostilasdavet"><a href="https://linktr.ee/DannyElis" target="_blank"> Linktree </a></p>
+    <p class="contato" id="linkinterno"><a href="https://www.linkedin.com/in/dannyelissimioni/" target="_blank">Linkedin</a></p>
+    <p class="contato" id="apostilasdavet"><a href="https://linktr.ee/DannyElis" target="_blank"> Linktree </a></p>
     
     
 </body>
